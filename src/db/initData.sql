@@ -1,7 +1,7 @@
 CREATE DATABASE IF NOT EXISTS MyShuttleDb;
 use MyShuttleDb;
 
-CREATE TABLE IF NOT EXISTS `employees` (
+CREATE TABLE IF NOT EXISTS `empls` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(20) DEFAULT NULL,
   `password` varchar(20) DEFAULT NULL,
